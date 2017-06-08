@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suit name=" suit 1" verbose="1">
+	<test name="regression suit 1">
+		<classes>
+			<class name="jio.util">
+
+			</class>
+		</classes>
+	</test>
+</suit>

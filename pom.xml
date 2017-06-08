@@ -8,6 +8,7 @@
 	<!-- Declaration of version for dependent jar file -->
 	<properties>
 		<selenium.version>3.4.0</selenium.version>
+		<testng.version>6.11</testng.version>
 		<maven.compiler.version>3.3</maven.compiler.version>
 		<java.version>1.8</java.version>
 	</properties>
@@ -45,10 +46,18 @@
 			<version>${selenium.version}</version>
 		</dependency>
 
+		<!--http://testng.org/doc/maven.html- Testng -->
+
+		<!-- Testng Jar 
+		 -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>${testng.version}</version>
+			<scope>test</scope>
+		</dependency>
+
 	</dependencies>
-
-
-
 
 	<!-- Build Configuration -->
 	<build>
